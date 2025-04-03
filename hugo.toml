@@ -108,6 +108,10 @@ copyright = "&copy;2024 KK"
   # If you'd like to use the template without the attribution, you can check out
   # the license option via the template author's website: https://onepagelove.com/split
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [server]
 [[server.headers]]
     for = '/**'
